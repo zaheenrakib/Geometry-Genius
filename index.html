@@ -67,33 +67,64 @@
                         </div>
                     </div>
                 </div>
-                <!-- Triangle Card -->
+                <!-- Parallelogram Card -->
                 <div class="card  bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <figure><img src="images/parallelogram.png"
                             alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <h2 class="card-title">Parallelogram</h2>
+                        <p class="text-2xl"> Area: (A) b X h</p>
+                        <div>
+                            <input class="w-20 text-2xl p-2 rounded-sm" type="text" name="" id="parallelogram-base" placeholder="base"> <span>cm</span>
+                            <input class="w-20 text-2xl p-2 rounded-sm" type="text" name="" id="parallelogram-height" placeholder="hei"> <span>cm</span>
+                        </div>
+                        <div>
+                            <p class="text-2xl">Area: <span id="parallelogram-area">0</span> <span>cm<sup>2</sup></span></p>
+                        </div>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button onclick="calculateParallelogramArea()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
-                <!-- Triangle Card -->
+                <!-- Rhombus Card -->
                 <div class="card  bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <figure><img src="images/rhombus.png"
                             alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
+                        <h2 class="card-title">Rhombus</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                            <button onclick="" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pentagon Card -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="images/pentagon.png"
+                            alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Pentagon</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                            <button onclick="" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ellips Card -->
+                <div class="card  bg-base-100 shadow-xl">
+                    <figure><img src="images/ellipse.png"
+                            alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Ellips</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <div class="card-actions justify-end">
+                            <button onclick="" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Area calculation container -->
-            <div class="w-96 border-2 border-gray-700 rounded-md">
+            <div class="w-56 border-2 border-gray-700 rounded-md">
                 <h3 class="text-3xl text-center p-4">Area Calculation</h3>
             </div>
         </div>
@@ -101,6 +132,7 @@
 
     <script src="scripts/triangle-calculate.js"></script>
     <script src="scripts/rectangle-area.js"></script>
+    <script src="scripts/parallelogram-area.js"></script>
 </body>
 
 </html>
